@@ -7,10 +7,10 @@ Usage: `bin/lint.sh [command]`
 | -D      | --default | Default exclude from .gitignore. Manually updated. |
 | -H      | --help       |   Show help message. |
 | -L |  --lint      |    Recursive PHP syntax check (lint) |
-| -S |  --skip      |    Skip directroies i.e. `--skip /var/www/ vendors 3rdparty/AWS` |
+| -S |  --skip      |    Skip directroies i.e. `--skip /var/www/ vendors classes/AWS` |
 
 #### Example
-        bin/lint.sh --lint ./3rdparty/ --lint ./admin/ --skip ./3rdparty/GoogleDrive/ 
+        bin/lint.sh --lint ./classes/ --lint ./admin/ --skip ./classes/GoogleDrive/ 
 
 #### Lint arguments
 You can use multiple dirs. Using syntax checker:
