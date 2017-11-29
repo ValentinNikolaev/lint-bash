@@ -70,7 +70,7 @@ build_find() {
 
 print_help() {
     printf "\n${YELLOW}Usage:${NC} $0 [command]\n"
-    printf "\n  -D | --default                  ${PURPLE}Default exclude from .gitignore. Manually updated..${NC}"
+    printf "\n  -D | --default                  ${PURPLE}Default exclude from .gitignore. Manually updated.${NC}"
     printf "\n  -H | --help                     ${PURPLE}Show this help message.${NC}"
     printf "\n  -L | --lint                     ${PURPLE}Recursive PHP syntax check (lint).${NC}"
     printf "\n  -S | --skip                     ${PURPLE}Skip directroies i.e. --skip /var/www/ vendors classes/AWS ${NC}"
